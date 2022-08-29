@@ -1,0 +1,52 @@
+.Header{
+    width:100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.Header-info{
+    padding:20px 70px;
+    width:50%;
+    color:white;
+}
+
+.header-info-text,.spoon_img{
+    padding-left: 50px;
+}
+
+/* title{
+    margin:10px 3rem;
+} */
+
+.header-h1{
+    color:white;
+    letter-spacing: 0.04em;
+    /* text-transform: uppercase; */
+    line-height: 70px;
+    font-size: 40px;
+    padding:50px;
+}
+
+.Header-text{
+    padding:0px 3rem;
+    color:#AAAAAA;
+}
+
+.custom_btn{
+    
+    width:150px;
+    height:40px;
+    background-color: #DCCA87;
+    margin-left: 50px;
+    /* padding:30px 50px; */
+}
+
+.Header-img{
+    width:50%;
+}
+
+.Header-img >img{
+    padding:60px 0px;
+    width:70%;
+}

@@ -1,0 +1,88 @@
+.About{
+    width:100%;
+    background-image: url(/public/bg.png);
+    display: flex;
+    flex-direction: row;
+    /* padding:40px 70px; */
+    height:700px;
+    background-image: 'public/bg.png';
+    position:relative;
+}
+
+.About-us{
+    width:40%;
+    text-align: right;
+    padding:150px 0px;
+    z-index: 2;
+}
+
+.G{
+    position:absolute;
+    left: 530px;
+    top:120px;
+}
+
+.G >img{
+    width:300px;
+    height:300px;
+    z-index: 0;
+}
+
+
+
+.About_us,.Our_history{
+    color:#DCCA87;
+    
+}
+
+.About-text,.History-text{
+    color:#AAAAAA;
+    font-size: 16px;
+}
+
+.know_more{
+    width:120px;
+    height:40px;
+    background-color: #DCCA87;
+    border:none;
+}
+
+.knife{
+    width:20%;
+}
+
+.knife_img{
+    margin:0px 105px;
+    height:580px;
+    position: absolute;
+    top: 50px;
+}
+
+/* .letter-G{
+    position: absolute;
+    font-size: 460px;
+    left: 580px;
+    top: 250px;
+    color: #272727;
+    z-index: 2;
+} */
+
+.History{
+    width:40%;
+    text-align: left;
+    margin:150px 0px;
+    z-index: 2;
+}
+
+@media screen and (min-width:2000px){
+
+}
+
+@media screen and (min-width:900px){
+    
+}
+
+@media screen and (min-width:650px){
+    
+}
+

@@ -1,10 +1,12 @@
 import React from 'react'
-import {NavBar} from './Components/NavBar';
-import {Banner} from './Components/Banner';
-import {Skills} from './Components/Skills';
-import {Project} from './Components/Project';
-import {Contactus} from './Components/Contactus';
-import {Subscribe} from './Components/Subscribe';
+import About from './components/About/About';
+import Chef from './components/Chef/Chef';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import SpecialMenu from './components/SpecialMenu/SpecialMenu';
+
+
+
 
 import "./style.css";
 
@@ -12,12 +14,12 @@ import "./style.css";
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <Banner/>
-      <Skills/>
-      <Project/>
-      <Contactus/>
-      <Subscribe/>
+      <Navbar/>
+      <Header/>
+      <About/>
+      <SpecialMenu/>
+      <Chef/>
+      
     </div>
   )
 }

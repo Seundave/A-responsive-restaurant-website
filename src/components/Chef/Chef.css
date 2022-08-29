@@ -1,0 +1,71 @@
+.chef{
+    width:100%;
+    height:auto;
+    background-image: url(/public/bg.png);
+    display:flex;
+    flex-direction: row;
+}
+
+.chef-left{
+    width:50%;
+    text-align: right;
+}
+
+
+.chef_img{
+    width:60%;
+    /* height:450px; */
+    margin:70px 0px;
+}
+
+.chef-right{
+    width:50%;
+    padding-left:50px;
+}
+
+.chef-right>p{
+    color:white;
+    padding-top:75px;
+}
+
+.chef-right>h1{
+    color:#DCCA87;
+    font-size:30px;
+}
+
+.quote{
+    display:flex;
+    
+}
+
+.quote_img{
+    width:30px;
+    height:30px;
+}
+
+.quote>p{
+    color:white;
+    padding-right: 90px;
+    font-size: 16px;
+}
+
+.chef-details{
+    width: 100%;
+}
+
+.chef-name{
+    color:#DCCA87;
+    font-size: 16px;
+}
+
+.chef-position{
+    font-size: 10px;
+    color:white;
+    margin-top:-15px;
+}
+
+.chef-signature{
+    width:235px;
+    height:83px;
+    margin-top:20px;
+}
