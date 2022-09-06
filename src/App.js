@@ -4,7 +4,7 @@ import Chef from './components/Chef/Chef';
 import Findus from './components/FindUs/Findus';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
-import Laurel from './components/Laurels/Laurel';
+// import Laurel from './components/Laurels/Laurel';
 import Navbar from './components/Navbar/Navbar';
 import Photo from './components/Photo/Photo';
 import SpecialMenu from './components/SpecialMenu/SpecialMenu';
