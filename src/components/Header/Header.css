@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
 .Header{
     width:100%;
     background-color: black;
@@ -13,6 +19,7 @@
 
 .header-info-text,.spoon_img{
     padding-left: 50px;
+    font-family: 'Opens sans';
 }
 
 /* title{
@@ -20,11 +27,12 @@
 } */
 
 .header-h1{
-    color:white;
+    color:#DCCA87;
     letter-spacing: 0.04em;
     /* text-transform: uppercase; */
     line-height: 70px;
     font-size: 40px;
+    font-family: ' Cormorant Upright';
     padding:50px;
 }
 
@@ -35,18 +43,69 @@
 
 .custom_btn{
     
-    width:150px;
+    width:120px;
     height:40px;
     background-color: #DCCA87;
-    margin-left: 50px;
-    /* padding:30px 50px; */
+
+    margin:30px 50px;
 }
 
 .Header-img{
+    display:flex;
+    justify-content: center;
     width:50%;
 }
 
 .Header-img >img{
     padding:60px 0px;
     width:70%;
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .header-info-text, .spoon_img {
+        padding-left: 0px;
+    }
+
+    .header-h1 {
+        line-height: 40px;
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+
+    .Header-text {
+        padding: 0px;
+        padding-right: 10px;
+    }
+
+    
+    .Header-info {
+        padding: 20px 40px;
+    }
+
+    .custom_btn {
+        margin: 30px 0px;
+    }
+
+    
+}
+
+@media screen and (max-width:400px){
+    *{
+        padding:0px;
+        margin:0px;
+    }
+
+    .Header{
+        display:block;
+    }
+    .Header-info{
+        width:100%;
+    }
+
+    .Header-img{
+        width:100%;
+    }
 }

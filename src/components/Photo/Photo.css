@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+.photo{
+    width:100%;
+    height:auto;
+    background-color: black;
+    margin: 0;
+}
+
+.photo-info{
+    width:30%;
+    padding: 50px;
+}
+
+.photo-info-social-media{
+    color:white;
+    font-family: ' Cormorant Upright';
+}
+
+.photo-info-header{
+    color:#DCCA87;
+    font-family: ' Cormorant Upright';
+}
+
+.photo-info-note{
+    color:#AAAAAA;
+}
+
+.view-more-btn{
+    width:120px;
+    height:30px;
+    background-color:#DCCA87;
+    border:none;
+    margin:30px 0px;
+}
+
+.carousels{
+    width:70%;
+}

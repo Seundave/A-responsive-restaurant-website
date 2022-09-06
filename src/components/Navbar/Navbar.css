@@ -1,5 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
 .navbar{
-    width:100%;
+    /* width:100%; */
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +30,7 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+    font-family: 'open sans';
 }
 
 .navbar_links > li >a{

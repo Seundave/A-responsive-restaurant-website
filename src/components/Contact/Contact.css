@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+.Contact{
+    width:100%;
+    background-image: url(/public/bg.png);
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter{
+    width:60%;
+    height:300px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    /* border:1px solid white; */
+    margin: 3px auto;
+    /* margin-bottom: 20px; */
+    position: relative;
+    top: -150px;
+
+    z-index: 0;
+    background-color: #0C0C0C;
+}
+
+.newsleter-heading{
+   font-size:12px;
+   padding-top: 12px; 
+   font-family: ' Cormorant Upright';
+}
+
+
+.newsletter-update{
+    font-size: 12px;
+    margin-top:5px;
+    font-family: ' Cormorant Upright';
+}
+
+.newsletter-text{
+    color:#DCCA87;
+    font-family: ' Cormorant Upright';
+}
+
+form{
+    padding:10px 0px;
+}
+
+input{
+    width:300px;
+    height:30px;
+    background-color: transparent;
+    border:1px solid white;
+}
+
+.subscribe{
+    width:100px;
+    height:36px;
+    margin-left:20px;
+    background-color: #DCCA87;
+}
+
+.contact-us{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    padding:0px 70px;
+    justify-content: center;
+}
+
+.contact-company{
+    width:30%;
+    color:white;
+}
+
+.social-media-contact{
+    width:30%;
+    color:white;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-quote{
+    text-align: center;
+    padding:20px 0px;
+}
+
+.Gericht{
+    width:150px;
+    
+}
+
+.social-media-icons{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook,.twitter{
+    margin-right: 15px;
+}
+
+.spoon{
+    margin-bottom: 10px;
+}
+
+.working-hours{
+    width:30%;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,3 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
 .SpecialMenu{
     width:100%;
     background-color: black;
@@ -6,6 +13,7 @@
 
 .SpecialMenu-title{
     text-align: center;
+    width:100%;
 }
 
 
@@ -14,12 +22,14 @@
     color:white;
     font-size: 20px;
     padding:20px 0px;
+    font-family: ' Cormorant Upright';
 }
 
 
 .Menu_header{
     text-align: center;
     color:#DCCA87;
+    font-family: ' Cormorant Upright';
 }
 
 .menu_section{
@@ -37,6 +47,7 @@
 
 .menu_header >h1{
     padding:0px 40px;
+    font-family: ' Cormorant Upright';
 }
 
 .content{

@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
 .chef{
     width:100%;
     height:auto;
@@ -26,16 +32,18 @@
 .chef-right>p{
     color:white;
     padding-top:75px;
+    font-family: ' Cormorant Upright';
 }
 
 .chef-right>h1{
     color:#DCCA87;
     font-size:30px;
+    font-family: ' Cormorant Upright';
 }
 
 .quote{
     display:flex;
-    
+    margin-top:20px;
 }
 
 .quote_img{
@@ -47,6 +55,7 @@
     color:white;
     padding-right: 90px;
     font-size: 16px;
+    padding-left:12px;
 }
 
 .chef-details{
@@ -56,16 +65,31 @@
 .chef-name{
     color:#DCCA87;
     font-size: 16px;
+    margin-top:50px;
+    font-family: ' Cormorant Upright';
+
 }
 
 .chef-position{
-    font-size: 10px;
+    font-size: 15px;
     color:white;
-    margin-top:-15px;
+    margin-top:10px;
+    letter-spacing: 2px;
 }
 
 .chef-signature{
     width:235px;
     height:83px;
     margin-top:20px;
+}
+
+@media screen and (max-width:900px) {
+    .chef-signature {
+        width: 150px;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
 }

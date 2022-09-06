@@ -1,9 +1,14 @@
 import React from 'react'
 import About from './components/About/About';
 import Chef from './components/Chef/Chef';
+import Findus from './components/FindUs/Findus';
 import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
+import Laurel from './components/Laurels/Laurel';
 import Navbar from './components/Navbar/Navbar';
+import Photo from './components/Photo/Photo';
 import SpecialMenu from './components/SpecialMenu/SpecialMenu';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -19,6 +24,11 @@ function App() {
       <About/>
       <SpecialMenu/>
       <Chef/>
+      <Intro/>
+      {/* <Laurel/> */}
+      <Photo/>
+      <Findus/>
+      <Contact/>
       
     </div>
   )
