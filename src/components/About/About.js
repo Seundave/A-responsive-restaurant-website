@@ -20,7 +20,7 @@ function About() {
         </div>
 
         <div className='knife'>
-            <img src={knife} className='knife_img'/>
+            <img src={knife} alt="knife" className='knife_img'/>
             {/* <h1 className='letter-G'>G</h1> */}
         </div>
 
