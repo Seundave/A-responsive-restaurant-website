@@ -121,3 +121,35 @@ input{
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width:400px) {
+    .newsletter {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 40px;
+    }
+
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-company {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .social-media-contact {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .working-hours {
+        width: 100%;
+    }
+}
