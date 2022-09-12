@@ -128,7 +128,7 @@ input{
     }
 
     input {
-        width: 100%;
+        width: 80%;
         margin-bottom: 20px;
         height: 40px;
     }
@@ -142,6 +142,7 @@ input{
     .contact-company {
         width: 100%;
         margin-bottom: 30px;
+        text-align: center;
     }
 
     .social-media-contact {
