@@ -91,5 +91,7 @@
 }
 
 @media screen and (max-width:400px) {
-    
+    .chef-right {
+        padding: 0px;
+    }
 }
