@@ -125,7 +125,7 @@
     }
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:400px){
     .navbar{
         padding:1rem;
     }
@@ -135,12 +135,44 @@
     }
 
     .navbar_smallscreen{
-        display:flex;
+        display:block;
         cursor: pointer; 
         align-items:center ;
     }
 
+
     .navbar_logo > img{
         width:110px;
     }
+}
+
+@media screen and (max-width:414px) {
+    .navbar{
+        overflow-x: hidden;
+    }
+
+    .navbar_login > a {
+        padding: 0 4px;
+        font-size: 12px;
+    }
+
+    .navbar_logo > img {
+        width: 100px;
+    }
+
+    .Header {
+        width: 100%;
+        /* background-color: black; */
+        /* display: flex; */
+        flex-direction: column;
+        /* text-align: center; */
+        align-items: center;
+    }
+
+    .Header-img >img {
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    
 }

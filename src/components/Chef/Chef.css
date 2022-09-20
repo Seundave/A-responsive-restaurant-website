@@ -95,3 +95,37 @@
         padding: 0px;
     }
 }
+
+@media screen and (max-width:414px) {
+    .chef {
+        width: 100%;
+        /* height: auto; */
+        /* background-image: url(http://localhost:3000/static/media/bg.3d421b1b5682e1b67deb.png); */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chef-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .chef_img {
+        width: 60%;
+        padding: 30px 0px;
+        /* height: 450px; */
+        /* margin: 70px 0px; */
+    }
+
+    .chef-right {
+        width: 100%;
+        text-align: center;
+        /* padding-left: 50px; */
+    }
+
+    .chef-right>p {
+        /* color: white; */
+        padding-top: 0px;
+        /* font-family: ' Cormorant Upright'; */
+    }
+}

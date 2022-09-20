@@ -67,3 +67,33 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width:414px) {
+    .Find_us {
+        /* width: 100%; */
+        /* height: auto; */
+        /* background-image: url(http://localhost:3000/static/media/bg.3d421b1b5682e1b67deb.png); */
+        /* background-size: cover; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info {
+        width: 100%;
+        padding: 0px 30px;
+        text-align: center;
+        /* padding-left: 100px; */
+        /* margin-top: 50px; */
+    }
+
+    .findus {
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .findus_img {
+        width: 60%;
+        padding-top: 30px;
+        padding-bottom: 180px;
+    }
+}

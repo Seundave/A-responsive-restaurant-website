@@ -27,12 +27,11 @@ function Navbar() {
       </div>
 
       <div className='navbar_smallscreen'>
-        <GiHamburgerMenu color="#fff" fontSize={27}  onclick={()=>setToggleMenu(true)}/>
-        
-
-        {toggleMenu && (
+        <GiHamburgerMenu cursor="pointer" color="#fff" fontSize={27}  onclick={()=>setToggleMenu(true)}/>
+        {
+        toggleMenu && (
         <div className="smallscreen-overlay">
-          <MdOutlineRestaurantMenu fontSize={27} className="overlay-close" onclick={()=>setToggleMenu(false)}/>
+          <MdOutlineRestaurantMenu  cursor="pointer" fontSize={27} className="overlay-close" onclick={()=>setToggleMenu(false)}/>
           <ul className='smallscreen-links'>
             <li className='opensans'><a href="#home">Home</a></li>
             <li className='opensans'><a href="#about">About</a></li>

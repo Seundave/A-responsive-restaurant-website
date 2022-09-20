@@ -76,12 +76,12 @@ input{
 }
 
 .contact-company{
-    width:30%;
+    width:33%;
     color:white;
 }
 
 .social-media-contact{
-    width:30%;
+    width:33%;
     color:white;
     /* background-color: aqua; */
     display: flex;
@@ -116,11 +116,15 @@ input{
 }
 
 .working-hours{
-    width:30%;
+    width:33%;
     color:white;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+.working-hours > h2{
+    font-family: 'Cormorant Upright';
 }
 
 @media screen and (max-width:400px) {
@@ -153,5 +157,23 @@ input{
 
     .working-hours {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .newsletter {
+        width: 100%;
+    }
+
+    form {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe {
+        margin-left: 0px;
+        margin-top: 8px;
     }
 }

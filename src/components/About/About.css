@@ -124,8 +124,11 @@
     }
 }
 
-@media screen and (max-width:900px){
-    
+@media screen and (max-width:912px){
+    .knife {
+        height: 50%;
+        
+    }
 }
 
 @media screen and (max-width:400px){
@@ -138,5 +141,12 @@
     .About-us{
         width:100%;
     } */
+}
+@media screen and (max-width:414px) {
+    .About {
+        overflow-x: hidden;
+    }
+
+  
 }
 
