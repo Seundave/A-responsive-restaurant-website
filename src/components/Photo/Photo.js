@@ -14,18 +14,18 @@ import spoon from '../../assets/spoon.png'
 function Photo() {
 
 
-  const Gallery = () => {
-    const scrollRef = React.useRef(null);
+  // const Gallery = () => {
+  //   const scrollRef = React.useRef(null);
   
-    const scroll = (direction) => {
-      const { current } = scrollRef;
+  //   const scroll = (direction) => {
+  //     const { current } = scrollRef;
   
-      if (direction === 'left') {
-        current.scrollLeft -= 300;
-      } else {
-        current.scrollLeft += 300;
-      }
-  };
+  //     if (direction === 'left') {
+  //       current.scrollLeft -= 300;
+  //     } else {
+  //       current.scrollLeft += 300;
+  //     }
+  // };
   
   return (
     <div className='photo'>
@@ -37,7 +37,7 @@ function Photo() {
             <button className='view-more-btn'>View More</button>
         </div>
 
-        <div className="app__gallery-images">
+        {/* <div className="app__gallery-images">
           <div className="app__gallery-images_container" ref={scrollRef}>
             {[gallery01, gallery02, gallery03, gallery04].map((image, index) => (
               <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
@@ -50,7 +50,7 @@ function Photo() {
             <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => scroll('left')} />
             <BsArrowRightShort className="gallery__arrow-icon" onClick={() => scroll('right')} />
           </div>
-      </div>
+      </div> */}
     </div>
   )
 }
