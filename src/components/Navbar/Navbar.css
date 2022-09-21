@@ -160,19 +160,6 @@
         width: 100px;
     }
 
-    .Header {
-        width: 100%;
-        /* background-color: black; */
-        /* display: flex; */
-        flex-direction: column;
-        /* text-align: center; */
-        align-items: center;
-    }
-
-    .Header-img >img {
-        padding-bottom: 50px;
-        width: 100%;
-    }
 
     
 }

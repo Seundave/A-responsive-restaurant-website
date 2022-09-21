@@ -131,22 +131,36 @@
     }
 }
 
-@media screen and (max-width:400px){
-    /* .About{
+@media screen and (max-width:400px),(max-width:500px){
+    .About{
         display:flex;
-        width:100%;
         flex-direction: column;
+        padding:0px;
     }
+
+   
 
     .About-us{
         width:100%;
-    } */
-}
-@media screen and (max-width:414px) {
-    .About {
-        overflow-x: hidden;
+        padding:0px;
+        text-align: center;
+        padding:20px;
     }
 
-  
+    .History{
+        width:100%;
+        padding:20px;
+        margin:0px;
+        text-align: center;
+    }
+
+    .G{
+        display:none;
+    }
+
+    .knife{
+        display:none;
+    }
 }
+
 

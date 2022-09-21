@@ -16,7 +16,7 @@ function Header() {
         </div>
 
         <div className="Header-img">
-            <img src={welcome} alt="welcome"/>
+            <img src={welcome} alt="welcome" />
         </div>
     </div>
   )

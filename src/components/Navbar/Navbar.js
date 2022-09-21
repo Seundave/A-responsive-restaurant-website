@@ -6,6 +6,8 @@ import logo from '../../assets/gericht.png';
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = React.useState(false);
+
+  
   return (
     <div className='navbar'>
         <div className="navbar_logo">
