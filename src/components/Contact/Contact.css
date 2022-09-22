@@ -131,7 +131,7 @@ input{
     font-family: 'Cormorant Upright';
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:400px),(max-width:500px), (max-width:600px) {
     .newsletter {
         width: 100%;
     }
