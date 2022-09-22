@@ -1,9 +1,9 @@
 import React from 'react'
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-import gallery01 from '../../assets/gallery01.png'
-import gallery02 from '../../assets/gallery01.png'
-import gallery03 from '../../assets/gallery01.png'
-import gallery04 from '../../assets/gallery01.png'
+// import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+// import gallery01 from '../../assets/gallery01.png'
+// import gallery02 from '../../assets/gallery01.png'
+// import gallery03 from '../../assets/gallery01.png'
+// import gallery04 from '../../assets/gallery01.png'
 import './Photo.css'
 import spoon from '../../assets/spoon.png'
 

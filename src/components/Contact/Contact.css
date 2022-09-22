@@ -80,6 +80,10 @@ input{
     color:white;
 }
 
+.contact-company > h2{
+    font-family: 'Cormorant Upright';
+}
+
 .social-media-contact{
     width:33%;
     color:white;
