@@ -18,14 +18,7 @@ function Intro() {
     }
   return (
     <div className='intro-video'>
-        <video 
-        src={meal} 
-        ref={vidRef}
-        type="video/mp4"
-        loop
-        controls={false}
-        muted
-        />
+        <video src={meal} ref={vidRef} type="video/mp4" loop muted autoPlay="autoplay"/>
 
         <div className='video-overlay'>
             <div className="video-overlay-circle" onclick={handleVideo}>
