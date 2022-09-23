@@ -40,8 +40,8 @@ function Navbar() {
         <GiHamburgerMenu cursor="pointer" color="#fff" fontSize={27}  onClick={showMenu}/>
         {
         toggleMenu && (
-        <div className="smallscreen-overlay" onClick={showMenu} >
-          <AiOutlineClose  cursor="pointer" fontSize={27} className="overlay-close" onclick={()=>setToggleMenu(false)}/>
+        <div className="smallscreen-overlay">
+          <AiOutlineClose color="#fff" cursor="pointer" fontSize={27} className="overlay-close" onClick={showMenu}/>
           <ul className='smallscreen-links'>
             <li className='opensans'><HiHome/><a href="#home">Home</a></li>
             <li className='opensans'><FcAbout/><a href="#about">About</a></li>

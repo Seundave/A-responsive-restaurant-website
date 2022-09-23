@@ -78,11 +78,11 @@
     width:100%;
     height:100vh;
     background-color: black;
-    transition:0.5s ease;
+    transition:1s ease;
     flex-direction:column ;
 }
 
-.smallscreen-overlay > overlay-close{
+.overlay-close{
     font-size: 27px;
     color:orange;
     cursor:pointer;
