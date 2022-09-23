@@ -98,13 +98,25 @@
 .smallscreen-links li{
     padding:32px;
     cursor: pointer;
-    color:orange;
+    color:white;
     font-size: 24px;
     text-align: center;
+    
 }
 
 .smallscreen-links li:hover{
     color:white;
+}
+
+.smallscreen-links li >a{
+    margin-left:10px;
+    text-decoration: none;
+    color:white;
+}
+
+.smallscreen-links li >a:hover{
+    /* text-decoration: none; */
+    color:orange;
 }
 
 @media screen and (max-width:2000px){
