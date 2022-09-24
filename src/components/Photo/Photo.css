@@ -18,16 +18,18 @@
 
 .photo-info-social-media{
     color:white;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 }
 
 .photo-info-header{
     color:#DCCA87;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 }
 
 .photo-info-note{
     color:#AAAAAA;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .view-more-btn{
@@ -36,6 +38,8 @@
     background-color:#DCCA87;
     border:none;
     margin:30px 0px;
+    font-weight: 700;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .carousels{

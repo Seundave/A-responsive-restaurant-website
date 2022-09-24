@@ -21,16 +21,17 @@
 
 .contact-info-social-media{
     color:white;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 }
 
 .contact-info-header,.hours{
     color:#DCCA87;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 }
 
 .contact-info-note,.schedule{
     color:#AAAAAA;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .view-more-btn{
@@ -38,6 +39,7 @@
     height:30px;
     background-color:#DCCA87;
     border:none;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .findus{

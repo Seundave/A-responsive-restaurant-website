@@ -22,14 +22,15 @@
     color:white;
     font-size: 20px;
     padding:20px 0px;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 }
 
 
 .Menu_header{
     text-align: center;
     color:#DCCA87;
-    font-family: ' Cormorant Upright';
+    font-size:60px;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .menu_section{
@@ -47,7 +48,7 @@
 
 .menu_header >h1{
     padding:0px 40px;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 }
 
 .content{
@@ -96,6 +97,8 @@
     height:40px;
     background-color: #DCCA87;
     border:none;
+    font-weight: 700;
+    font-family: 'Cormorant Upright', serif;
     
 }
 
@@ -173,7 +176,7 @@
     .menu_header >h1 {
         padding-top: 20px;
         /* display: flex; */
-        font-family: ' Cormorant Upright';
+        font-family: 'Cormorant Upright', serif;
         text-align: center;
     }
 

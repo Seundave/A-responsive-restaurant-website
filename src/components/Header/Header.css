@@ -19,7 +19,8 @@
 
 .header-info-text,.spoon_img{
     padding-left: 50px;
-    font-family: 'Opens sans';
+    font-family: 'Cormorant Upright', serif;
+    font-size:20px;
 }
 
 /* title{
@@ -31,8 +32,9 @@
     letter-spacing: 0.04em;
     /* text-transform: uppercase; */
     line-height: 70px;
-    font-size: 40px;
-    font-family: ' Cormorant Upright';
+    font-size: 60px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
     padding:50px;
 }
 
@@ -48,6 +50,8 @@
     background-color: #DCCA87;
     border:none;
     margin:30px 50px;
+    font-weight: 700;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .Header-img{

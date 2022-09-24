@@ -32,13 +32,13 @@
 .chef-right>p{
     color:white;
     padding-top:75px;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 }
 
 .chef-right>h1{
     color:#DCCA87;
-    font-size:30px;
-    font-family: ' Cormorant Upright';
+    font-size:40px;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .quote{
@@ -52,10 +52,12 @@
 }
 
 .quote>p{
-    color:white;
+    color:#AAAAAA;
     padding-right: 90px;
     font-size: 16px;
     padding-left:12px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .chef-details{
@@ -64,9 +66,9 @@
 
 .chef-name{
     color:#DCCA87;
-    font-size: 16px;
+    font-size: 25px;
     margin-top:50px;
-    font-family: ' Cormorant Upright';
+    font-family: 'Cormorant Upright', serif;
 
 }
 
@@ -74,7 +76,8 @@
     font-size: 15px;
     color:white;
     margin-top:10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .chef-signature{
