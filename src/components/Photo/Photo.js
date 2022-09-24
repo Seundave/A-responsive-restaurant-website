@@ -1,4 +1,5 @@
-import {React,scrollRef} from 'react'
+import React from 'react'
+import scrollRef from 'react'
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import gallery01 from '../../assets/gallery01.png'
 import gallery02 from '../../assets/pizza-329523_1920.jpg'
