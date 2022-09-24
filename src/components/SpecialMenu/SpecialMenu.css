@@ -29,7 +29,7 @@
 .Menu_header{
     text-align: center;
     color:#DCCA87;
-    font-size:60px;
+    font-size:50px;
     font-family: 'Cormorant Upright', serif;
 }
 
@@ -108,6 +108,10 @@
         flex-direction: column;
     }
 
+    .Menu_header{
+        font-size:40px;
+    }
+
     .menu1 {
         width: 100%;
         margin-top: 30px;
@@ -165,6 +169,10 @@
         /* width: 100%; */
         display: flex;
         flex-direction: column;
+    }
+
+    .Menu_header{
+        font-size:40px;
     }
 
     .menu1 {
