@@ -7,13 +7,24 @@
 .photo{
     width:100%;
     height:auto;
-    background-color: black;
+    /* background-color: black; */
+    display:flex;
+    flex-direction: row;
     margin: 0;
 }
 
-.photo-info{
+/* .photo-info{
     width:30%;
     padding: 50px;
+} */
+
+.photo-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:0px 40px;
 }
 
 .photo-info-social-media{
@@ -42,15 +53,12 @@
     font-family: 'Cormorant Upright', serif;
 }
 
-.carousels{
-    width:70%;
-}
 
 .app__gallery-images {
     flex: 1;
     display: flex;
     flex-direction: row;
-    max-width: 50%;
+    max-width: 65%;
     position: relative;
 }
 
@@ -71,7 +79,9 @@
     position: relative;
     min-width: 301px;
     height: 447px;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
+    display: flex;
+    align-items: center;
 }
 
 .gallery__image-icon {
@@ -81,11 +91,13 @@
     opacity: 0;
     transition: .5s ease;
     cursor: pointer;
+    top:50%;
+    left:35%;
 }
 
 .app__gallery-images_card img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
@@ -104,19 +116,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 0 1rem;
+    top:50%;
+    /* padding: 0 1rem; */
     position: absolute;
-    bottom: 5%;
+    /* bottom: 5%; */
 }
 
 .gallery__arrow-icon {
-    color: var(--color-golden);
-    font-size: 2rem;
+    color: black;
+    font-size: 3rem;
     cursor: pointer;
     background: var(--color-black);
     border-radius: 5px;
 }
+
+/* .gallery__arrow-icon2 {
+    color: black;
+    font-size: 3rem;
+    cursor: pointer;
+    background: var(--color-black);
+    border-radius: 5px;
+} */
 
 .gallery__arrow-icon:hover {
     color: var(--color-white);
@@ -145,7 +165,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
     .photo-info {
         width: 100%;
         padding: 50px;
@@ -156,5 +176,23 @@
     .photo-info {
         width: 100%;
         padding: 50px;
+    }
+} */
+
+@media screen and (max-width:400px),(max-width:500px), (max-width:600px) {
+    .photo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .photo-info{
+        width:100%;
+        align-items: center;
+    }
+
+    .app__gallery-images{
+        width:100%;
     }
 }
