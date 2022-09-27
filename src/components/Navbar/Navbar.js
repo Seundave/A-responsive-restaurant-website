@@ -25,7 +25,7 @@ function Navbar() {
             <li className='opensans'><a href="#home">Home</a></li>
             <li className='opensans'><a href="#about">About</a></li>
             <li className='opensans'><a href="#menu">Menu</a></li>
-            <li className='opensans'><a href="#awards">Awards</a></li>
+            <li className='opensans'><a href="#gallery">Gallery</a></li>
             <li className='opensans'><a href="#contact">Contact</a></li>
             
         </ul>

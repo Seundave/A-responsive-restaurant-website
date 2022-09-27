@@ -9,7 +9,7 @@ import MenuItem from './MenuItem.js'
 
 function SpecialMenu() {
   return (
-    <div className='SpecialMenu'>
+    <div className='SpecialMenu' id="menu">
         <div className='SpecialMenu-title'>
             <h1 className='menu_title'>Menu that fits you palatte</h1>
             <img src={spoon} alt="spoon" className='spoon'/>

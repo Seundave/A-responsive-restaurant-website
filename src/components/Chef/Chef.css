@@ -93,11 +93,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
-    .chef-right {
-        padding: 0px;
-    }
-}
+
 
 @media screen and (max-width:414px),(max-width:600px) {
     .chef {
@@ -123,7 +119,7 @@
     .chef-right {
         width: 100%;
         text-align: center;
-        /* padding-left: 50px; */
+        padding: 0px;
     }
 
     .chef-right>p {

@@ -29,7 +29,7 @@ function Photo() {
  }
   
   return (
-    <div className='photo'>
+    <div className='photo' id="gallery">
         <div className='photo-info'>
             <p className='photo-info-social-media'>Instagram</p>
             <img src={spoon} alt="spoon"/>
@@ -48,9 +48,8 @@ function Photo() {
             ))}
           </div>
           <div className="app__gallery-images_arrows">
-            <BsArrowRightShort className="gallery__arrow-icon" onClick={() => Gallery('right')} />
-            <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => Gallery('left')} />
-            
+            <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => Gallery('left')}/>
+            <BsArrowRightShort className="gallery__arrow-icon" onClick={() => Gallery('right')}/>
           </div>
         </div>
     </div>

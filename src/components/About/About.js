@@ -7,7 +7,7 @@ import G from '../../assets/G.png'
 
 function About() {
   return (
-    <div className='About'>
+    <div className='About' id="about">
 
         <div className='G'>
             <img src={G} alt="G"/>
