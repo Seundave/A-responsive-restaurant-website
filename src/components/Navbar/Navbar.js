@@ -14,14 +14,25 @@ import logo from '../../assets/gericht.png';
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [navbar, setNabvar] = useState(false);
 
   const showMenu = () => setToggleMenu(!toggleMenu)
+
+  const changeBackground =() =>{
+    if(window.scrollY >=80){
+      setNabvar(true)
+    }else{
+      setNabvar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground);
   return (
-    <div className='navbar'>
-        <div className="navbar_logo">
-            <img src={logo} alt="navbar_logo"/>
+    <div className={navbar ? 'navbar active' : 'navbar'}>
+        <div className={navbar ? 'navbar_logo active' : 'navbar_logo'}>
+            <h1 src={logo} alt="navbar_logo"> SEUNDAVE</h1>
         </div>
-        <ul className='navbar_links'>
+        <ul className={navbar ? 'navbar_links active' : 'navbar_links'}>
             <li className='opensans'><a href="#home">Home</a></li>
             <li className='opensans'><a href="#about">About</a></li>
             <li className='opensans'><a href="#menu">Menu</a></li>
@@ -30,14 +41,14 @@ function Navbar() {
             
         </ul>
 
-      <div className="navbar_login">
+      <div className={navbar ? 'navbar_login active' : 'navbar_login'}>
         <a href="#login"> Log In / Register</a>
         <div/>
         <a href="/"> Book Table </a>
       </div>
 
-      <div className='navbar_smallscreen'>
-        <GiHamburgerMenu cursor="pointer" color="#fff" fontSize={27}  onClick={showMenu}/>
+      <div className={navbar ? 'navbar_smallscreen active' : 'navbar_smallscreen'}>
+        <GiHamburgerMenu cursor="pointer" color="#fff" fontSize={27}  onClick={showMenu} className="hamburger"/>
         {
         toggleMenu && (
         <div className="smallscreen-overlay">
@@ -46,7 +57,7 @@ function Navbar() {
             <li className='opensans'><HiHome/><a href="#home">Home</a></li>
             <li className='opensans'><FcAbout/><a href="#about">About</a></li>
             <li className='opensans'><MdFastfood/><a href="#menu">Menu</a></li>
-            <li className='opensans'><CgAwards/><a href="#awards">Awards</a></li>
+            <li className='opensans'><CgAwards/><a href="#gallery">Gallery</a></li>
             <li className='opensans'><IoMdContacts/><a href="#contact">Contact</a></li>
             
         </ul>
