@@ -20,9 +20,7 @@
     align-items: center;
     justify-content:center;
     text-align: center;
-    /* border:1px solid white; */
     margin: 30px auto;
-    /* margin-bottom: 20px; */
     position: relative;
     top: -150px;
 
@@ -95,7 +93,6 @@ input{
 .social-media-contact{
     width:33%;
     color:white;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: center;

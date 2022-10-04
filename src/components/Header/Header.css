@@ -23,14 +23,9 @@
     font-size:20px;
 }
 
-/* title{
-    margin:10px 3rem;
-} */
-
 .header-h1{
     color:#DCCA87;
     letter-spacing: 0.04em;
-    /* text-transform: uppercase; */
     line-height: 70px;
     font-size: 60px;
     font-family: 'Cormorant Upright', serif;
@@ -97,24 +92,6 @@
 }
 
 
-/* @media screen and (max-width:414px) {
-    .Header-info {
-        padding: 20px 70px;
-        width: 100%;
-        color: white;
-    }
-
-    .Header-img{
-        width:80%;
-    }
-
-    .Header-img >img {
-        padding-top: 0px;
-        padding-bottom: 50px;
-        width: 60%;
-    } 
-} */
-
 @media screen and (max-width:400px),(max-width:500px),(max-width:600px){
     *{
         padding:0px;
@@ -134,9 +111,3 @@
         width:100%;
     }
 }
-
-/* @media screen and (max-width:360px) {
-    .Header-img{
-        width:80%;
-    }
-} */

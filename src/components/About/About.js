@@ -21,7 +21,7 @@ function About() {
 
         <div className='knife'>
             <img src={knife} alt="knife" className='knife_img'/>
-            {/* <h1 className='letter-G'>G</h1> */}
+           
         </div>
 
         <div className='History'>

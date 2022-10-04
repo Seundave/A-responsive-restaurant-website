@@ -12,9 +12,12 @@ import {IoMdContacts} from 'react-icons/io';
 import './Navbar.css';
 import logo from '../../assets/gericht.png';
 
+
+
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [navbar, setNabvar] = useState(false);
+  
 
   const showMenu = () => setToggleMenu(!toggleMenu)
 
@@ -65,20 +68,6 @@ function Navbar() {
         )}
         
       </div>
-
-      {/* <div className="navbar">
-        <GiHamburgerMenu cursor="pointer" color="#fff" fontSize={27}  className="menu-bars" onClick={showMenu}/>
-      </div>
-
-      <nav className={smallscreen ? 'nav-menu active' : 'nav-menu'}>
-        <ul className='nav-menu-items'>
-          <li className='navbar-toggle'>
-            <Link to="#" className="menu-bars">
-              <MdOutlineRestaurantMenu/>
-            </Link>
-          </li>
-        </ul>
-      </nav> */}
     </div>
   )
 }

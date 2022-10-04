@@ -25,8 +25,6 @@ function SpecialMenu() {
                 {MenuData.map((wine, index)=>(
                     <div className='content'>
                         <MenuItem key={wine.name + index} name={wine.name} price={wine.price} tags={wine.tags}/>
-                      {/* <div/> */}
-                        {/* <p>{wine.size}</p> */}
                     </div>
                 ))}
             </div>
@@ -46,8 +44,6 @@ function SpecialMenu() {
             {Cocktails.map((Cocktails, index)=>(
             <div className='content'>
               <MenuItem key={Cocktails.name + index}  name={Cocktails.name} price={Cocktails.price} tags={Cocktails.tags}/>
-            {/* <div/> */}
-              {/* <p>{Cocktails.size}</p> */}
             </div>
                   ))}
             </div> 

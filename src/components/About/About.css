@@ -14,7 +14,6 @@
     justify-content: center;
     align-items: center;
     height:100vh;
-    /* background-image: 'public/bg.png'; */
 }
 .About::before{
     background-image: url(/public/bg.png);
@@ -30,7 +29,6 @@
     width:40%;
     text-align: right;
     padding:150px 0px;
-    /* z-index: 2; */
 }
 
 .G{
@@ -43,16 +41,12 @@
     
 }
 
-
-
 .G >img{
     width:300px;
     height:300px;
     position: relative;
     z-index: -1;
 }
-
-
 
 .About_us,.Our_history{
     color:#DCCA87;
@@ -90,20 +84,10 @@
     height:90%;
 }
 
-/* .letter-G{
-    position: absolute;
-    font-size: 460px;
-    left: 580px;
-    top: 250px;
-    color: #272727;
-    z-index: 2;
-} */
-
 .History{
     width:40%;
     text-align: left;
     margin:150px 0px;
-    /* z-index: 2; */
 }
 
 

@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import scrollRef from 'react'
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import Meal from './Meal'
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import gallery01 from '../../assets/gallery01.png'
 import gallery02 from '../../assets/pizza-329523_1920.jpg'
 import gallery03 from '../../assets/food-712665_1920.jpg'
@@ -9,24 +10,42 @@ import './Photo.css'
 import spoon from '../../assets/spoon.png'
 
 
+const images = [gallery01, gallery02, gallery03, gallery04]
+
 
 
 
 function Photo() {
-
-
-  const Gallery = (direction) => {
-    const scrollRef = React.useRef(null);
-
-    const { current } = scrollRef;
   
-      if (direction === 'left') {
-        current.scrollLeft -= 300;
-      } else {
-        current.scrollLeft += 300;
-      }
-  
- }
+  const [first, setFirst] = useState (0);
+  const [second, setSecond] = useState (1);
+  const [third, setThird] = useState (2);
+  const meal1 = images[first]
+  const meal2 = images[second]
+  const meal3 = images[third]
+
+  const checkNumber = (number) =>{
+    if (number < 0  ){
+      return images.length-1;
+    }
+    if (number > images.length -1){
+      return 0;
+    }
+    return number;
+  }
+
+  const nextMeal =() =>{
+   setFirst(checkNumber(first+1)) 
+   setSecond(checkNumber(second+1)) 
+   setThird(checkNumber(third+1)) 
+   
+  }
+
+  const prevMeal = ()=>{
+    setFirst(checkNumber(first-1)) 
+    setSecond(checkNumber(second-1)) 
+    setThird(checkNumber(third-1)) 
+  }
   
   return (
     <div className='photo' id="gallery">
@@ -40,16 +59,14 @@ function Photo() {
 
         <div className="app__gallery-images">
           <div className="app__gallery-images_container" ref={scrollRef}>
-            {[gallery01, gallery02, gallery03, gallery04].map((image, index) => (
-              <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
-                <img src={image} alt="gallery_image" />
-                <BsInstagram className="gallery__image-icon" />
-              </div>
-            ))}
+            <Meal meal={meal1}/>
+            <Meal meal={meal2}/>
+            <Meal meal={meal3}/>
+            
           </div>
           <div className="app__gallery-images_arrows">
-            <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => Gallery('left')}/>
-            <BsArrowRightShort className="gallery__arrow-icon" onClick={() => Gallery('right')}/>
+            <BsArrowLeftShort className="gallery__arrow-icon" onClick={prevMeal}/>
+            <BsArrowRightShort className="gallery__arrow-icon" onClick={nextMeal}/>
           </div>
         </div>
     </div>
