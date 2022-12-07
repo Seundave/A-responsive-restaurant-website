@@ -80,6 +80,9 @@ input{
 .contact-company{
     width:33%;
     color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .contact-company > h2{
