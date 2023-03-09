@@ -53,7 +53,7 @@ function Photo() {
             <p className='photo-info-social-media'>Instagram</p>
             <img src={spoon} alt="spoon"/>
             <h1 className='photo-info-header'>Photo Gallery</h1>
-            <p className='photo-info-note'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+            <p className='photo-info-note'>Have a view of our delicious and sumptous meal!</p>
             <button className='view-more-btn'>View More</button>
         </div>
 

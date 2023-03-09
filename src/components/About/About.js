@@ -15,7 +15,7 @@ function About() {
         <div className='About-us'>
             <h1 className='About_us'>About us</h1>
             <img src={spoon} alt="spoon" className='spoon-img'/>
-            <p className='About-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+            <p className='About-text'>Seundave Restaurant is a seasonal cafe and marketplace featuring fresh baked goods in East Hollywood, CA run by Pastry Chef/David Olaleye and Chef Emmanuel Lincoln. At Seundave restaurant, they continue their dedication to hand made food with artisan breads and pastries made daily with locally-sourced, heirloom grains, as well as a produce forward day-time menu.</p>
             <button className='know_more'>Know More</button>
         </div>
 
@@ -27,7 +27,7 @@ function About() {
         <div className='History'>
             <h1 className='Our_history'>Our History</h1>
             <img src={spoon} alt="spoon"className='spoon-img'/>
-            <p className='History-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+            <p className='History-text'>Seundave restaurant has been one of Brooklyn’s most celebrated local restaurants over the last two decades. Owned and operated by David Olaleye of the Tapa Collective, its defining feature is the 90-year-old Pullman dining car in the bar. The group has worked meticulously to bring unique, approachable and refreshing tiki drinks to New Yorkers.</p>
             <button className='know_more'>Know More</button>
         </div>
     </div>

@@ -40,8 +40,7 @@ function Navbar() {
             <li className='opensans'><a href="#about">About</a></li>
             <li className='opensans'><a href="#menu">Menu</a></li>
             <li className='opensans'><a href="#gallery">Gallery</a></li>
-            <li className='opensans'><a href="#contact">Contact</a></li>
-            
+            <li className='opensans'><a href="#contact">Contact</a></li> 
         </ul>
 
       <div className={navbar ? 'navbar_login active' : 'navbar_login'}>

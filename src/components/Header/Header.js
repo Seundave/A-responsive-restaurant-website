@@ -14,7 +14,7 @@ function Header() {
            </div>
             <div className="header-caption">
               <h1 className="header-h1">The Key to Fine Dining</h1>
-              <p className='Header-text'>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
+              <p className='Header-text'>At Seundave restaurant, we are dedicated to all things seasonal with a market-driven day-time menu that also offers a variety of artisan breads and pastries made daily with locally-sourced, heirloom grains. </p>
               <button type="button" className='custom_btn'>Explore  Menu</button>
             </div>
         </div>

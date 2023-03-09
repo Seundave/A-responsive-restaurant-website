@@ -82,7 +82,7 @@
 .chef-signature{
     width:235px;
     height:83px;
-    margin-top:20px;
+    margin:20px 0px;
 }
 
 @media screen and (max-width:900px) {

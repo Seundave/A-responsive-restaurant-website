@@ -19,7 +19,7 @@ function Chef() {
 
         <div className='quote'>
           <img src={quote} alt="quote" className='quote_img'/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
+          <p>The Pickle Hospitality family has been working meticulously to create a unique yet approachable and fun tiki program. This menu was put together thanks to their dedication, the advice and guidance from those in this industry who I’m grateful to call friends and consider them to be experts in the tiki world, as well as our beloved guests who have been an integral part of the journey, developing and evolving our cocktails through their honest feedback. As we prepare to open our doors, we can’t wait to welcome you in and show you what we’ve been up to</p>
         </div>
 
         <div className='chef-details'>
